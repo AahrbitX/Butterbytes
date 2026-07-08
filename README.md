@@ -31,10 +31,6 @@ Windows:
 git clone https://github.com/abinjustinkumaravel/Butterbytes.git
 ```
 
-### Contact
-
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/Abin_JKV).
-
 ### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
