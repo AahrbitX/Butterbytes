@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  /* Original warm cream palette */
+  --color-cream:       #F8F2EA;
+  --color-cream-dark:  #EDE3D6;
+  --color-brown:       #2C1A0E;
+  --color-brown-mid:   #6B4535;
+  --color-accent:      #C49A6C;
+  --color-accent-dark: #9E7045;
+  --color-card:        #FFFFFF;
+  --color-card-warm:   #FDF8F3;
+
+  --font-sans:    var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-cormorant), ui-serif, Georgia, serif;
+}
+
+html, body {
+  overscroll-behavior: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background-color: var(--color-cream);
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  color: var(--color-brown);
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
